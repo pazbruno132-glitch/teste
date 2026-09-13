@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firmados</title>
+    <link rel="stylesheet" href="../estilos/style.css" />
+    <script
+      src="https://kit.fontawesome.com/95b5a226b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="logo">
+          <img src="../img/logo.png " alt="Logo do site" width="80" />
+          <p>Firmados</p>
+        </div>
+
+        <i onclick="clicar()" class="fa-solid fa-bars icone"></i>
+        <nav id="menu">
+          <ul>
+            <i onclick="voltar()" class="fa-solid fa-xmark icone"></i>
+            <li><a class="a1" href="#">Início</a></li>
+            <li><a class="a1" href="#">Bíblia</a></li>
+            <li><a class="a1" href="#">Estudos</a></li>
+            <li><a class="a1" href="#">Cronologia</a></li>
+            <li><a class="a1" href="#">História da Igreja</a></li>
+            <li><a class="a1" href="#">Personagens</a></li>
+          </ul>
+
+          <div class="login">
+            <a href="login.html"><button class="b1">Entrar</button></a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="principal">
+          <h1>Bem-vindo(a) ao Firmados</h1>
+          
+          <p><strong>Sua fé firme na Rocha. A Palavra de Deus sem complicação, no seu ritmo e para a sua realidade.</strong></p>
+
+          <h2>Nossa História e Propósito</h2>
+
+          <p>O <strong>Firmados</strong> nasceu de um incômodo sincero com a distância que muitas vezes se cria entre o jovem e a Bíblia. A Palavra de Deus é viva, atual e cheia de respostas para as nossas maiores perguntas, mas, para quem está dando os primeiros passos na fé ou tentando conciliar a rotina moderna com a vida espiritual, o caminho pode parecer confuso. Entre vocabulários arcaicos, falta de contexto histórico e a dificuldade de encontrar conteúdos que falem a língua da nossa geração, muitos desistem antes mesmo de criar o hábito.</p>
+
+          <p>Entendemos que a juventude atual enfrenta pressões únicas: a busca constante por identidade, a sobrecarga de informações, a ansiedade em relação ao futuro e o desafio diário de manter valores cristãos em um mundo dinâmico. Foi exatamente para suprir essa necessidade que criamos esta plataforma. Nosso propósito é ser um porto seguro e uma ferramenta prática de consulta, aprendizado e fortalecimento espiritual.</p>
+
+          <h2>Nossa Filosofia: Profundidade sem Enrolação</h2>
+
+          <p>Não acreditamos em uma fé rasa, mas também não achamos que para aprender a Bíblia você precisa de um diploma em teologia ou dicionários difíceis. Nossa filosofia baseia-se no equilíbrio perfeito entre a fidelidade ao texto sagrado e uma Didática clara, acessível e visualmente envolvente.</p>
+
+          <p>Aqui, o "crentês" dá lugar a explicações diretas. O contexto histórico de dois mil anos atrás é trazido para a sua realidade de hoje. Não escondemos as perguntas difíceis da vida e nem oferecemos respostas prontas ou superficiais: nós investigamos as Escrituras junto com você, versículo por versículo, para que sua fé não seja fundamentada apenas no que os outros dizem, mas naquilo que você mesmo compreende e experimenta.</p>
+
+          <h2>O Que Você Vai Encontrar na Plataforma:</h2>
+
+          <ul>
+            <li><strong>Trilhas Especiais para Novos Convertidos:</strong> Um guia passo a passo para quem acabou de aceitar a Jesus e não sabe por onde começar. Desde "como orar" até "como escolher a primeira tradução da Bíblia".</li>
+
+            <li><strong>Estudos Bíblicos Temáticos:</strong> Artigos aprofundados sobre temas cruciais da juventude, como ansiedade, saúde mental, vocação, namoro santo, amizades, finanças e propósito de vida.</li>
+
+            <li><strong>Exposições Versículo por Versículo:</strong> Análises detalhadas dos livros da Bíblia, organizadas com tópicos, tabelas e resumos para facilitar a sua compreensão de cada capítulo.</li>
+
+            <li><strong>Cronologias e Mapas Mentais:</strong> Guias visuais para ajudar você a conectar os pontos da História da Salvação e entender a linha do tempo desde Gênesis até o Apocalipse.</li>
+
+            <li><strong>Planos de Leitura Adaptáveis:</strong> Conteúdos projetados tanto para uma leitura rápida de 5 minutos no ônibus ou no intervalo das aulas, quanto para momentos dedicados de estudo no fim de semana.</li>
+
+            <li><strong>Recursos para Líderes de Jovens e Células:</strong> Esboços, ideias e materiais que você pode usar livremente para preparar estudos e reuniões no seu grupo.</li>
+          </ul>
+
+          <h2>Sua Base Espiritual Começa Aqui</h2>
+
+          <p>Em Mateus 7, Jesus nos ensina sobre dois tipos de construções: aquela feita sobre a areia, que cai na primeira tempestade, e aquela feita sobre a rocha, que permanece firme perante qualquer vento. Nosso desejo é ver a sua vida, a sua mente e os seus sentimentos totalmente fincados nessa Rocha inabalável que é Cristo e a Sua Palavra.</p>
+
+          <p>Não importa em qual estágio da sua jornada espiritual você se encontra hoje — se tem anos de igreja, se acabou de tomar sua decisão, ou se está apenas curioso para saber mais sobre Deus. O <strong>Firmados</strong> foi feito para você.</p>
+
+          <p>Acomode-se, pegue seu café ou chá, abra sua Bíblia física ou digital e comece a explorar. Sua jornada de crescimento espiritual ganha um novo capítulo agora.</p>
+        </section>
+      </main>
+    </div>
+    <script>
+        var menu = document.getElementById('menu')
+
+        function clicar() {
+
+            if (menu.style.display == 'none') {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function voltar() {
+            
+            menu.style.display = 'none'
+        }
+    </script>
+  </body>
+</html>
