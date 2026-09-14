@@ -145,7 +145,6 @@ main {
 
 .exploracao {
   padding-bottom: 50px;
-  padding-top: 50px;
 }
 
 .exploracao h2 {
@@ -175,6 +174,7 @@ main {
   color: white;
   text-decoration: none;
   font-family: var(--fonte2);
+  font-size: 1.1em;
 }
 
 .cards a:active {
@@ -187,8 +187,9 @@ main {
   justify-content: center;
   align-items: center;
   background-color: var(--cor1);
-  padding: 20px 50px;
-  width: 200px;
+  padding: 20px;
+  margin-top: 50px;
+  width: 300px;
   height: 200px;
   border-radius: 20px;
   gap: 20px;
