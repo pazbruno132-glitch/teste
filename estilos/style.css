@@ -103,7 +103,8 @@ header p {
 /*Main////////////////////////////////////////////////////////////*/
 
 main {
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   background-color: var(--cor2);
   color: white;
   padding: 20px;
