@@ -145,6 +145,7 @@ main {
 
 .exploracao {
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .exploracao h2 {
@@ -186,7 +187,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: var(--cor1);
-  padding: 20px;
+  padding: 20px 50px;
   width: 200px;
   height: 200px;
   border-radius: 20px;
