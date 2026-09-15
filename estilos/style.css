@@ -210,3 +210,51 @@ footer {
   font-family: var(--fonte2);
   padding: 20px;
 }
+
+/*Versão tablet////////////////////////////////////////////////*/
+
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+
+  /*Header//////////////////////////////////////////////////////////////*/
+  header .navegacao, .icone{
+    display: none;
+  }
+
+  header nav{
+    display: block;
+    position: initial;
+    height: initial;
+    padding: initial;
+    
+  }
+
+  header nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+  }
+
+  header nav .a1:active{
+    color: var(--cor5);
+    border: 1px solid var(--cor5);
+  }
+
+  header nav .a2{
+    display: none;
+  }
+
+  /*Cards////////////////////////////////////////////////////////////////////*/
+
+  div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
