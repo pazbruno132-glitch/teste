@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../estilos/cadastro.css" />
+  </head>
+  <body>
+    <img src="../img/logo.png" alt="Logo da página" width="90">
+    <div class="cadastro">
+      <h2>Faça o seu Cadastro</h2>
+
+      <form action="banco-de-dados/banco.html" method="get">
+        <label for="inome">Usuário</label>
+        <input type="text" name="nome" id="inome" required maxlength="20" />
+
+        <label for="iemail">Email</label>
+        <input type="email" name="email" id="iemail" required />
+
+        <label for="isenha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="isenha"
+          required
+          minlength="8"
+          maxlength="16"
+        />
+
+        <label for="itermos">Aceite os Termos</label>
+        <input type="checkbox" name="termos" id="itermos" required />
+        <a href="#">Termos de licensa</a>
+
+        <input id="bt" type="submit" value="Cadastrar" />
+      </form>
+    </div>
+  </body>
+</html>
