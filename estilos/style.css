@@ -330,11 +330,11 @@ footer {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1025px) {
   /*Header////////////////////////////////////////*/
 
   header {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   header .navegacao, .icone{
@@ -351,7 +351,7 @@ footer {
   header nav ul{
     display: flex;
     flex-flow: row nowrap;
-    gap: 20px;
+    gap: 10px;
   }
 
   header nav .a1{
@@ -379,10 +379,13 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     padding: 20px;
+    
+    
 
     margin-top: -20px;
     margin-left: -20px;
     margin-right: -20px;
     height: 500px;
   }
+
 }
